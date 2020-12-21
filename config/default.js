@@ -1,7 +1,9 @@
 'use strict';
 
 module.exports = {
-	port: 8083,
+
+	port: 8082,  // parseInt(process.env.PORT, 10) || 8080,
+
 	url: 'mongodb://localhost:27017/elm',  //mongodb://mongo:27017/notes   mongodb://localhost:27017/elm
 	session: {
 		name: 'SID',
